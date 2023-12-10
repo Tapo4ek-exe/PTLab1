@@ -55,7 +55,7 @@ class TestCalcBStudents:
             }
         ]
 
-        b_students_count = [0, 1, 2]
+        b_students_count = [2, 1, 0]
 
         return data, b_students_count
 
