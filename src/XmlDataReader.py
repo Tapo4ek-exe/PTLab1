@@ -19,5 +19,6 @@ class XmlDataReader(DataReader):
             for subject in subject_list:
                 subject_name = subject.attrib["name"]
                 mark = subject.text
-                self.students[student.attrib["name"]].append((subject_name, int(mark)))
+                (self.students[student.attrib["name"]]
+                 .append((subject_name, int(mark))))
         return self.students
