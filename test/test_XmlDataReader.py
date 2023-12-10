@@ -11,18 +11,18 @@ class TestXmlDataReader:
     def file_and_data_content(self) -> tuple[str, DataType]:
         text = '''
         <?xml version="1.0" encoding="UTF-8" ?>
-<root>
-    <students>
-        <student name="Иванов Константин Дмитриевич">
-            <subject name="математика">91</subject>
-            <subject name="химия">100</subject>
-        </student>
-        <student name="Петров Петр Семенович">
-            <subject name="русский язык">87</subject>
-            <subject name="литература">78</subject>
-        </student>
-    </students>
-</root>
+        <root>
+            <students>
+                <student name="Иванов Константин Дмитриевич">
+                    <subject name="математика">91</subject>
+                    <subject name="химия">100</subject>
+                </student>
+                <student name="Петров Петр Семенович">
+                    <subject name="русский язык">87</subject>
+                    <subject name="литература">78</subject>
+                </student>
+            </students>
+        </root>
         '''
 
         data = {
@@ -33,7 +33,7 @@ class TestXmlDataReader:
                 ("русский язык", 87), ("литература", 78)
             ]
         }
-        return text, data
+        return text.strip(), data
 
     @pytest.fixture()
     def filepath_and_data(self,
