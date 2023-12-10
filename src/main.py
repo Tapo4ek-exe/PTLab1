@@ -2,8 +2,8 @@
 import argparse
 import sys
 
+from CalcBStudents import CalcBStudents
 from CalcRating import CalcRating
-from TextDataReader import TextDataReader
 from XmlDataReader import XmlDataReader
 
 
@@ -24,6 +24,9 @@ def main():
 
     rating = CalcRating(students).calc()
     print("Rating: ", rating)
+
+    b_student_count = CalcBStudents(students).calc()
+    print("B Students (all marks >= 76): ", b_student_count)
 
 
 if __name__ == "__main__":

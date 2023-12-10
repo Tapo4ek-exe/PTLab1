@@ -11,7 +11,7 @@
             <subject name="химия">87</subject>
             <subject name="социология">61</subject>
         </student>
-        <student name="Петров Петр Петрович">
+        <student name="Сергеев Сергей Сергеевич">
             <subject name="математика">90</subject>
             <subject name="химия">100</subject>
             <subject name="программирование">80</subject>
