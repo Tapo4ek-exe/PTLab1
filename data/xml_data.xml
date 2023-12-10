@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <students>
+        <student name="Иванов Иван Иванович">
+            <subject name="математика">76</subject>
+            <subject name="литература">100</subject>
+            <subject name="программирование">91</subject>
+        </student>
+        <student name="Петров Петр Петрович">
+            <subject name="математика">78</subject>
+            <subject name="химия">87</subject>
+            <subject name="социология">61</subject>
+        </student>
+        <student name="Петров Петр Петрович">
+            <subject name="математика">90</subject>
+            <subject name="химия">100</subject>
+            <subject name="программирование">80</subject>
+        </student>
+    </students>
+</root>
